@@ -1,0 +1,4 @@
+2024-07-30 18:45:58,053 [main] INFO  com.test.ActionClass - Browser is launched
+2024-07-30 18:46:00,660 [main] INFO  com.test.ActionClass - Website is launched
+2024-07-30 18:46:00,821 [main] INFO  com.test.ActionClass - Click Operation is completed
+2024-07-30 18:46:06,069 [main] INFO  com.test.ActionClass - Quitting the driver

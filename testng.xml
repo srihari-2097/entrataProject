@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+	<test name="Entrata TestCases">
+		<classes>
+			<class name="com.test.FirstTestCase" />
+			<class name="com.test.SecondTestCase" />
+			<class name="com.test.ThirdTestCase" />
+			<class name="com.test.FourthTeastCase" />
+			<class name="com.test.FifthTestCase" />
+		</classes>
+	</test>
+</suite>

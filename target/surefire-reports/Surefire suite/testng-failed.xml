@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.mobileAutomation.FirstTestCase">
+        <methods>
+          <include name="VerifyOrder"/>
+          <include name="testAddLatsProductToCart"/>
+          <include name="checkOut"/>
+          <include name="enterUserDetails"/>
+          <include name="setup"/>
+          <include name="orderOverView"/>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mobileAutomation.FirstTestCase -->
+      <class name="com.test.TestNGFeatures">
+        <methods>
+          <include name="loginTest"/>
+          <include name="RegPageTest"/>
+          <include name="SearchPageTest"/>
+          <include name="HomaePageTest"/>
+        </methods>
+      </class> <!-- com.test.TestNGFeatures -->
+      <class name="com.mobileAutomation.DialerTestCase">
+        <methods>
+          <include name="TestPhoneCall"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobileAutomation.DialerTestCase -->
+      <class name="com.mobileAutomation.CalculatorTest">
+        <methods>
+          <include name="testAddition"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mobileAutomation.CalculatorTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

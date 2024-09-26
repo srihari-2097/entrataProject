@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-26T17:41:38 IST" name="All Test Suite" finished-at="2024-09-26T17:42:53 IST" duration-ms="75844">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T17:41:38 IST" name="Entrata TestCases" finished-at="2024-09-26T17:42:53 IST" duration-ms="75844">
+      <class name="com.test.ThirdTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.ThirdTestCase@13b6aecc]" started-at="2024-09-26T17:42:06 IST" name="setup" finished-at="2024-09-26T17:42:11 IST" duration-ms="4977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test()[pri:0, instance:com.test.ThirdTestCase@13b6aecc]" started-at="2024-09-26T17:42:11 IST" name="Test" description="Verify that the application correctly navigates to multiple pages and ensures each page is opened successfully." finished-at="2024-09-26T17:42:33 IST" duration-ms="22448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.ThirdTestCase@13b6aecc]" started-at="2024-09-26T17:42:33 IST" name="tearDown" finished-at="2024-09-26T17:42:33 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.ThirdTestCase -->
+      <class name="com.test.FirstTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.FirstTestCase@24269709]" started-at="2024-09-26T17:41:38 IST" name="setup" finished-at="2024-09-26T17:41:46 IST" duration-ms="8202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:com.test.FirstTestCase@24269709]" started-at="2024-09-26T17:41:46 IST" name="test" description="Verify the functionality of the Schedule Your Demo form, including form validation and window handling." finished-at="2024-09-26T17:41:51 IST" duration-ms="4783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.FirstTestCase@24269709]" started-at="2024-09-26T17:41:51 IST" name="tearDown" finished-at="2024-09-26T17:41:51 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.FirstTestCase -->
+      <class name="com.test.FourthTeastCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.FourthTeastCase@158a8276]" started-at="2024-09-26T17:42:33 IST" name="setup" finished-at="2024-09-26T17:42:38 IST" duration-ms="4170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test()[pri:0, instance:com.test.FourthTeastCase@158a8276]" started-at="2024-09-26T17:42:38 IST" name="Test" description="Verify that all the guides on the Guides page have a &#039;Download Now&#039; button." finished-at="2024-09-26T17:42:40 IST" duration-ms="2557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.FourthTeastCase@158a8276]" started-at="2024-09-26T17:42:40 IST" name="tearDown" finished-at="2024-09-26T17:42:40 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.FourthTeastCase -->
+      <class name="com.test.SecondTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.SecondTestCase@7d8704ef]" started-at="2024-09-26T17:41:51 IST" name="setup" finished-at="2024-09-26T17:41:56 IST" duration-ms="4720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test()[pri:0, instance:com.test.SecondTestCase@7d8704ef]" started-at="2024-09-26T17:41:56 IST" name="Test" description="Verify the functionality of the Summit page and check dynamic data such as the Date, Summit heading, number of sessions, guest list, and their respective professions." finished-at="2024-09-26T17:42:06 IST" duration-ms="9768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="testDown()[pri:0, instance:com.test.SecondTestCase@7d8704ef]" started-at="2024-09-26T17:42:06 IST" name="testDown" finished-at="2024-09-26T17:42:06 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- com.test.SecondTestCase -->
+      <class name="com.test.FifthTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.FifthTestCase@3c3d9b6b]" started-at="2024-09-26T17:42:40 IST" name="setup" finished-at="2024-09-26T17:42:48 IST" duration-ms="7303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test()[pri:0, instance:com.test.FifthTestCase@3c3d9b6b]" started-at="2024-09-26T17:42:48 IST" name="Test" description="Verify that a user is not able to watch the webinar if they are not registered." finished-at="2024-09-26T17:42:53 IST" duration-ms="5449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.FifthTestCase@3c3d9b6b]" started-at="2024-09-26T17:42:53 IST" name="tearDown" finished-at="2024-09-26T17:42:53 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.FifthTestCase -->
+    </test> <!-- Entrata TestCases -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
